@@ -1,4 +1,18 @@
-{     
+{
+  "name": "netflix-abdisa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeplay": "npm run build",
+   "deplay": "gh-pages -d build",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  
+  
   "homepage": "https://abdi-a.github.io/Netflix-bdi",
   "dependencies": {
     "@emotion/react": "^11.14.0",
